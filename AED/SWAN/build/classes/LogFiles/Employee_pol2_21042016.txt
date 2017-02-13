@@ -1,0 +1,24 @@
+Apr 21, 2016 7:38:39 PM Business.Validate createLogFile
+INFO: Employee working from home
+Apr 21, 2016 7:38:47 PM Business.Validate createLogFile
+INFO: Employee viewed his workrequest
+Apr 21, 2016 7:38:55 PM Business.Validate createLogFile
+INFO: Employee viewed his workrequest
+Apr 21, 2016 7:39:00 PM Business.Validate createLogFile
+INFO: Employee viewed his workrequest
+Apr 21, 2016 7:41:30 PM Business.Validate createLogFile
+INFO: Employee working from home
+Apr 21, 2016 7:41:35 PM Business.Validate createLogFile
+INFO: Employee viewed his workrequest
+Apr 21, 2016 7:41:39 PM Business.Validate createLogFile
+INFO: Employee assigned workrequest to himself
+Apr 21, 2016 7:41:41 PM Business.Validate createLogFile
+INFO: Employee viewed his workrequest
+Apr 21, 2016 7:41:54 PM Business.Validate createLogFile
+INFO: Employee viewed patient policy details
+Apr 21, 2016 7:42:16 PM Business.Validate createLogFile
+INFO: Employee updated patient's policy details
+Apr 21, 2016 8:47:58 PM Business.Validate createLogFile
+INFO: Employee working from home
+Apr 21, 2016 8:48:03 PM Business.Validate createLogFile
+INFO: Employee viewed his timesheet

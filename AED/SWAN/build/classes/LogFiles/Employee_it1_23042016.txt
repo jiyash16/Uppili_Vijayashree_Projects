@@ -1,0 +1,10 @@
+Apr 23, 2016 11:03:23 PM Business.Validate createLogFile
+INFO: Employee working from home
+Apr 23, 2016 11:03:27 PM Business.Validate createLogFile
+INFO: Employee Viewed workrequest
+Apr 23, 2016 11:03:34 PM Business.Validate createLogFile
+INFO: Employee Viewed his workrequest
+Apr 23, 2016 11:03:36 PM Business.Validate createLogFile
+INFO: Employee working on ticket
+Apr 23, 2016 11:03:41 PM Business.Validate createLogFile
+INFO: Employee viewed patient details

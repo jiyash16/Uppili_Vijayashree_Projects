@@ -1,0 +1,34 @@
+
+
+top 10
+hdfs dfs -rm -r /jiya/examples/Project/Output
+hdfs dfs -mkdir /jiya/examples/Project/Output
+
+hadoop jar /home/jiya/Desktop/examples/Project/1_TopTenProduct/AdventureWorks.jar /jiya/examples/Project/Fact /jiya/examples/Project/Product "inner" /jiya/examples/Project/Output/ttOut1 /jiya/examples/Project/Output/ttout2 /jiya/examples/Project/Output/finalttout
+
+Original Binning
+hadoop jar /home/jiya/Desktop/examples/Project/2_MultipleJoinWithBinning/testTuple.jar /jiya/examples/Project/Fact /jiya/examples/Project/Customer "inner" /jiya/examples/Project/Output/OriBinOut1 /jiya/examples/Project/Geo /jiya/examples/Project/Output/OriBinOut2 /jiya/examples/Project/Output/OriBinOut3 /jiya/examples/Project/Output/finalOriBinOut
+
+Customer Counter
+hadoop jar /home/jiya/Desktop/examples/Project/3_CountingCustomerWithCounter/CustomerCounterExample.jar /jiya/examples/Project/Output/OriBinOut2 /jiya/examples/Project/Output/finalCounter
+
+Predictive Analysis
+hadoop jar /home/jiya/Desktop/examples/Project/4_PredictiveYearlySales/PredictiveYearlySales.jar /jiya/examples/Project/Fact /jiya/examples/Project/Output/predictOut /jiya/examples/Project/Output/finalPredictOut
+
+InvertedIndex
+hadoop jar /home/jiya/Desktop/examples/Project/5_InvertedIndex/ProductPromotionInvertedIndex.jar /jiya/examples/Project/Fact /jiya/examples/Project/Output/finalInvOut
+
+PartitionerCombiner Performance improve
+hadoop jar /home/jiya/Desktop/examples/Project/6_OnlyPartitionerCombiner/ImprovedMultipleJoins.jar /jiya/examples/Project/Fact /jiya/examples/Project/Customer "inner" /jiya/examples/Project/Output/PartBinOut1 /jiya/examples/Project/Geo /jiya/examples/Project/Output/PartBinOut2 /jiya/examples/Project/Output/PartBinOut3 /jiya/examples/Project/Output/finalPartBinOut
+
+MapCompression
+hadoop jar /home/jiya/Desktop/examples/Project/7_MapCompression/ImprovedMultipleJoins.jar /jiya/examples/Project/Fact /jiya/examples/Project/Customer "inner" /jiya/examples/Project/Output/MapCompBinOut1 /jiya/examples/Project/Geo /jiya/examples/Project/Output/MapCompBinOut2 /jiya/examples/Project/Output/MapCompBinOut3 /jiya/examples/Project/Output/finalMapCompBinOut
+
+BothMapAndReduceCompression
+hadoop jar /home/jiya/Desktop/examples/Project/8_BothCompression/ImprovedMultipleJoins.jar /jiya/examples/Project/Fact /jiya/examples/Project/Customer "inner" /jiya/examples/Project/Output/BothCompBinOut1 /jiya/examples/Project/Geo /jiya/examples/Project/Output/BothCompBinOut2 /jiya/examples/Project/Output/BothCompBinOut3 /jiya/examples/Project/Output/finalBothCompBinOut
+
+MultipleJoin With caching and compression partitioner and combiner
+hadoop jar /home/jiya/Desktop/examples/Project/9_MultipleJoinWithCache/MultipleJoinUsingCache.jar /jiya/examples/Project/Fact /jiya/examples/Project/Customer /home/jiya/Desktop/examples/Project/Geo.csv /jiya/examples/Project/Output/CacheBinOut1 /jiya/examples/Project/Output/CacheBinOut2 /jiya/examples/Project/Output/finalCacheBinOut
+
+
+
